@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Todoapp from './Todoapp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <>
+  <div className = "container">
+      <Todoapp/>
+  </div>
+  </>,
+ 
   document.getElementById('root')
 );
 

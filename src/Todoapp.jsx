@@ -38,7 +38,7 @@ function Todoapp() {
 
 
 
-        
+
     }
 
 
@@ -67,7 +67,7 @@ function Todoapp() {
                                 onSelect={deleteItem}
                                 key={curr_key++}
                             />
-                    
+
 
                         })
                     }
